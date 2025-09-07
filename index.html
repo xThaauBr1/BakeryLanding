@@ -1,27 +1,110 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bakery Landing</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-    <header class="container-fluid header">
-  <div class="row justify-content-center align-items-center border">
-    <div class="col  align-items-center ">
-      <p>Aroma de pão fresco, tradição que aquece corações.</p>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bakery Landing</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="container-fluid small-header">
+    <div class="row align-items-center">
+      <div class="col-6 d-flex align-items-center justify-content-center">
+        <p class="mb-0 small-text">Bolos artesanais feitos com amor e ingredientes naturais.</iFeito>
+        </p>
+      </div>
+      <div class="col-6 align-items-center d-flex justify-content-center">
+        <div class="col-2 align-items-center d-flex justify-content-center contact-info ">
+          <img src="assets/images/phone-call.svg " class="img-fluid">
+          <p class="mb-0 small-text">75 9 99999-9999</p>
+        </div>
+        <div class="col-2 align-items-center d-flex justify-content-center contact-info">
+          <img src="assets/images/email.svg" class="img-fluid">
+          <p class="mb-0 small-text">Bakery69@gmail.com</p>
+        </div>
+        <div class="col-2 align-items-center d-flex justify-content-center contact-info" id="user">
+          <img src="assets/images/user.svg" id="account-icon" class="img-fluid">
+          <p class="mb-0 small-text">Conta</p>
+        </div>
+      </div>
     </div>
-    <div class="col"></div>
-  </div>
-</header>
-    <main></main>
-    <footer></footer>
+  </header>
+
+  <header class="container-fluid header">
+    <div class="row align-items-center justify-content-between">
+      <!-- Logo -->
+      <div class="col-3 d-flex align-items-center ps-4">
+        <img src="assets/images/newlogo.svg" class="img-logoBaker">
+      </div>
+
+      <div class="col-6 d-flex justify-content-center align-items-center">
+        <nav class="d-flex gap-4">
+          <a href="#" class="nav-text">INÍCIO</a>
+          <a href="#" class="nav-text">SALA</a>
+          <a href="#" class="nav-text">PÁGINAS</a>
+          <a href="#" class="nav-text">LOJA</a>
+          <a href="#" class="nav-text">CONTATO</a>
+        </nav>
+      </div>
+
+      <div class="col-3 d-flex justify-content-end align-items-center gap-3 pe-4">
+        <img src="assets/images/search.svg" class="img-icon">
+        <img src="assets/images/heart.svg" class="img-icon">
+        <img src="assets/images/bag.svg" class="img-icon" id="cart-icon">
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="container-fluid d-flex justify-content-between align-items-center banner-section">
+      <div class="row row-banner">
+        <div class="col-6 d-flex flex-column justify-content-start align-items-start section-text">
+          <h1>O sabor artesanal que desperta memórias<br>e aquece o coração.</h1>
+          <p class="mt-1 mb-4">
+            Receitas artesanais feitas com cuidado e tradição, pensadas para transformar<br>cada momento em uma
+            experiência memorável de sabor e afeto.
+          </p>
+           <div class="align-items-center d-flex justify-content-center scroll-down">
+          <div>
+            <button class="btn-scroll1">
+              <a>Comprar</a>
+            </button>
+            <button class="btn-scroll2">
+              <a>Ver mais</a>
+            </button>
+          </div>
+        </div>
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-end align-items-center ">
+          <img src="assets/images/cakebg.jpeg" class="banner-fluid">
+        </div>
+      </div>
+    </section>
+
+  <section class="container-fluid d-flex justify-content-between align-items-center banner-section ">
+    <div class="row row-section2 mt-6">
+      <div class="col-4 d-flex justify-content-start align-items-center">
+        <img src="assets/images/orangecake.jpeg" class="section2-banner">
+      </div>
+      <div class="col-8 d-flex flex-column justify-content-start align-items-start section2-text">
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer></footer>
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
