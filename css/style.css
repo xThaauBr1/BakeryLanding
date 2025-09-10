@@ -10,6 +10,9 @@
   height: 30px;
   padding: 0px 0px !important;
 }
+.row{
+    height: 100%;
+}
 
 .small-text {
     font-family: "Poppins", sans-serif;
@@ -150,6 +153,7 @@
 }
 
 /* Section 2 */
+
 .row-section2{
    padding-top: 30px;
 }
